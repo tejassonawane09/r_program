@@ -1,0 +1,7 @@
+m=matrix(1:10,nrow=2,ncol=2)
+print("ORIGINAL MATRIX:")
+print(m)
+1=split(m,rep(1:ncol(m),each=nrow(m)))
+print("LIST FROM THE SAID MATRIX:")
+print(1)
+print(sort(m))

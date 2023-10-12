@@ -1,0 +1,7 @@
+x=c(10,20,30,25,9,26)
+print("ORIGINAL VECTOR")
+print(x)
+print("SORT IN ASCENDING ORDER")
+print(sort(x))
+print("SORT IN DESCENDING ORDER")
+print(sort(x,decreasing=TRUE))

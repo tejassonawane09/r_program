@@ -1,0 +1,7 @@
+x=c(10,20,30)
+print("SUM:")
+print(sum(x))
+print("MEAN:")
+print(mean(x))
+print("PRODUCT:")
+print(prod(x))

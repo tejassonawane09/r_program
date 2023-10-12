@@ -1,0 +1,8 @@
+L=sample(LETTERS,size=50,replace = TRUE)
+print("ORIGINAL DATA")
+print(L)
+f=factor(L)
+print("ORIGINAL FACTORS:")
+print(f)
+print("ONLY FIVE OF THE LEVELS:")
+print(table(L[1:5]))
